@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    font-family: 'Roboto';
 }
 
 img {
@@ -22,24 +23,39 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px
 }
 
 li {
-    margin: 10px;
+    margin: 13px;
 }
 
 .title {
     padding: 10px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 1000;
 }
 
 .upper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px
 }
 
 .upper1 {
@@ -52,6 +68,12 @@ li {
     align-items: center;
 }
 
+.destinations {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .images {
     display: flex;
 }
@@ -59,6 +81,7 @@ li {
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
 }
 
 .sign {
@@ -67,5 +90,27 @@ li {
 
 .down {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.quote1 {
+    font-size: 36px;
+    color: #1f2937ab;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sign {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
 }
