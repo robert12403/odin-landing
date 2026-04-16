@@ -1,5 +1,10 @@
 img {
-    width: 200px;
+    width: 150px;
+}
+
+.small-img {
+    width: 100px;
+    height: 100px;
 }
 
 ul {
@@ -23,4 +28,8 @@ li {
 .header {
     display: flex;
     justify-content: space-around;
+}
+
+.upper {
+    display: flex;
 }
