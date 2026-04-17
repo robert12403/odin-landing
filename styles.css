@@ -157,3 +157,13 @@ button {
     color: #e5e7eb;
     margin: 0px 500px;
 }
+
+.img-and-name1,
+.img-and-name2,
+.img-and-name3,
+.img-and-name4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
