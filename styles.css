@@ -69,13 +69,14 @@ li {
 }
 
 .destinations {
-    font-size: 36px;
+    font-size: 34px;
     color: #1f2937;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .images {
     display: flex;
+    gap: 30px;
 }
 
 .quote {
@@ -96,6 +97,16 @@ li {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    border-color: #1F2937;
+    border-radius: 8px;
+    height: 37px;
+    width: 110px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.button2 {
+    border-color: #f9faf8;
 }
 
 .quote1 {
@@ -112,5 +123,12 @@ button {
 
 .footer {
     background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.down {
+    background-color: #3882f6;
     color: #e5e7eb;
 }
