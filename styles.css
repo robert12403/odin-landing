@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     font-family: 'Roboto';
+    margin: 0px;
 }
 
 img {
@@ -11,8 +12,8 @@ img {
 }
 
 .small-img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 ul {
@@ -41,7 +42,6 @@ li {
 .header {
     display: flex;
     justify-content: space-evenly;
-    background-color: #1F2937;
 }
 
 .hero {
@@ -53,9 +53,12 @@ li {
 .upper {
     display: flex;
     justify-content: space-evenly;
-    background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px
+}
+
+.background-one {
+    background-color: #1f2937;
 }
 
 .upper1 {
@@ -76,7 +79,8 @@ li {
 
 .images {
     display: flex;
-    gap: 30px;
+    gap: 35px;
+    color: #0000008e;
 }
 
 .quote {
